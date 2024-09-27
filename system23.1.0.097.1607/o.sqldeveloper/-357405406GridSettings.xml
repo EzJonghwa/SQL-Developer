@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">RESERV_NO</Item>
+      <Item class="java.lang.String">RESERV_DATE</Item>
+      <Item class="java.lang.String">RESERV_TIME</Item>
+      <Item class="java.lang.String">CUSTOMER_ID</Item>
+      <Item class="java.lang.String">BRANCH</Item>
+      <Item class="java.lang.String">VISITOR_CNT</Item>
+      <Item class="java.lang.String">CANCEL</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>125</Item>
+      <Item>105</Item>
+      <Item>103</Item>
+      <Item>105</Item>
+      <Item>69</Item>
+      <Item>125</Item>
+      <Item>69</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23StudySELECT * FROM RESERVATION</uniqueName>
+</TableSettings>

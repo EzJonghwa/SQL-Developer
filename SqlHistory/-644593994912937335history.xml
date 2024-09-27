@@ -1,0 +1,25 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT A. RESERV_NO , SUM(A.QUANTITY)
+FROM ORDER_INFO A , (SELECT A.RESERV_NO 예약번호
+FROM RESERVATION A,(SELECT CUSTOMER_ID
+FROM(
+    SELECT A.CUSTOMER_ID, B.CUSTOMER_NAME ,A.BRANCH 
+    ,COUNT(B.CUSTOMER_NAME) 방문횟수 , SUM(VISITOR_CNT) 방문고객수
+    FROM RESERVATION A, CUSTOMER B
+    WHERE A.CUSTOMER_ID = B.CUSTOMER_ID AND CANCEL ='N'
+    GROUP BY A.CUSTOMER_ID, B.CUSTOMER_NAME ,A.BRANCH 
+    ORDER BY 4 DESC)
+    WHERE ROWNUM =1) B
+WHERE A.CUSTOMER_ID = B.CUSTOMER_ID
+and CANCEL ='N') B
+WHERE A. RESERV_NO = B.예약번호
+GROUP BY A. RESERV_NO;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726046283751]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.01]]></execTime>
+	</historyItem>
+</history>

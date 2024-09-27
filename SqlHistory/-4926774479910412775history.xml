@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM ORDER_INFO;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726047114450]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[8]]></executed>
+		<execTime><![CDATA[0.001]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT 이름, 전공 ,평점, LAG(이름,1,'1등') OVER(PARTITION BY 전공 ORDER BY 평점 DESC) 나보다위학생
+    ,NVL(LAG(평점,1) OVER(PARTITION BY 전공 ORDER BY 평점 DESC)-평점,0) 평점차이
+FROM 학생;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1725587065818]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

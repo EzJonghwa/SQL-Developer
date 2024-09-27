@@ -1,0 +1,25 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT SUBSTR(a. reserv_date,1,6) as 매출월
+        ,SUM(DECODE (b.item_id,'M0001',B.SALES,0)) AS SPECIAL_SET
+        ,SUM(DECODE (b.item_id,'M0002',B.SALES,0)) AS PASTA
+        ,SUM(DECODE (b.item_id,'M0003',B.SALES,0)) AS PIZZA
+        ,SUM(DECODE (b.item_id,'M0004',B.SALES,0)) AS SEA_FOOD
+        ,SUM(DECODE (b.item_id,'M0005',B.SALES,0)) AS STEAK
+        ,SUM(DECODE (b.item_id,'M0006',B.SALES,0)) AS SALAD_BAR
+        ,SUM(DECODE (b.item_id,'M0007',B.SALES,0)) AS SALAD
+        ,SUM(DECODE (b.item_id,'M0008',B.SALES,0)) AS SANDWICH
+        ,SUM(DECODE (b.item_id,'M0009',B.SALES,0)) AS WINE
+        ,SUM(DECODE (b.item_id,'M00010',B.SALES,0)) AS JUICE
+FROM reservation a ,order_info b
+    where a.reserv_no = b.reserv_no
+GROUP BY SUBSTR(a. reserv_date,1,6)
+ORDER BY 1;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726022250063]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.012]]></execTime>
+	</historyItem>
+</history>

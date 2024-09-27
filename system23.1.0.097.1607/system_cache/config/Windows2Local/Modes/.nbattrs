@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="anonymousMode_1">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_RunManagerWindow"/>
+    </fileobject>
+    <fileobject name="anonymousMode_10">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_SshNavigatorWindow.SshNavigatorName"/>
+    </fileobject>
+    <fileobject name="anonymousMode_11">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_PALETTEFACTORY.PALETTE"/>
+    </fileobject>
+    <fileobject name="anonymousMode_12">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_ComponentPalette"/>
+    </fileobject>
+    <fileobject name="anonymousMode_13">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_LogWindow.Log/NBDC_Debugger.BreakpointsWindow/NBDC_VHVPropertiesDockable.VHVPropertiesDockable/NBDC_EXTDockable.SVNStatusCommandWindow/NBDC_Debugger.SmartWindow/NBDC_Debugger.LocalsWindow/NBDC_Debugger.WatchWindow"/>
+    </fileobject>
+    <fileobject name="anonymousMode_14">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_DbaNavigatorWindow.DbaNavigatorName"/>
+    </fileobject>
+    <fileobject name="anonymousMode_15">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_SNIPPET_VIEW_TYPE.SNIPPET_VIEW_ID"/>
+    </fileobject>
+    <fileobject name="anonymousMode_16">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_GridNavWindow.Default"/>
+    </fileobject>
+    <fileobject name="anonymousMode_17">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_RestNavigatorWindow.RestNavigatorName"/>
+    </fileobject>
+    <fileobject name="anonymousMode_18">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_OUTLINE_VIEW_TYPE.oracle-dbtools-raptor-plsql-structure-Window"/>
+    </fileobject>
+    <fileobject name="anonymousMode_19">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_EXTDockable.DM_BROWSER"/>
+    </fileobject>
+    <fileobject name="anonymousMode_2">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_TestNavWindow.Default"/>
+    </fileobject>
+    <fileobject name="anonymousMode_20">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_EXTDockable.DM_NAVIGATOR"/>
+    </fileobject>
+    <fileobject name="anonymousMode_21">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_VersioningNavigatorWindow.VersioningNavigator"/>
+    </fileobject>
+    <fileobject name="anonymousMode_22">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_MigrationProjectNavigatorWindow.MigrationProjects"/>
+    </fileobject>
+    <fileobject name="anonymousMode_23">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_SPATIAL_VIEW_TYPE.SPATIAL_VIEW_ID"/>
+    </fileobject>
+    <fileobject name="anonymousMode_24">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_DBMS_OUTPUT_DOCKABLE_VIEW_TYPE.DBMS_OUTPUT_DOCKABLE_VIEW_ID"/>
+    </fileobject>
+    <fileobject name="anonymousMode_25">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_DatabaseNavigatorWindow.Default"/>
+    </fileobject>
+    <fileobject name="anonymousMode_4">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_RECENT_OBJECTS_VIEW_TYPE.oracle-dbtools-raptor-recent-objects-Window"/>
+    </fileobject>
+    <fileobject name="anonymousMode_5">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_SEARCH_VIEW_TYPE.oracle-dbtools-raptor-nav-search-Window"/>
+    </fileobject>
+    <fileobject name="anonymousMode_6">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_SQLHISTORY_VIEW_TYPE.SQLHISTORY_VIEW_ID"/>
+    </fileobject>
+    <fileobject name="anonymousMode_8">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_OWA_OUTPUT_DOCKABLE_VIEW_TYPE.OWA_OUTPUT_DOCKABLE_VIEW_ID"/>
+    </fileobject>
+    <fileobject name="anonymousMode_9">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_ReportNavigatorWindow.DatabaseReports"/>
+    </fileobject>
+    <fileobject name="east">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_InspectorWindow.SingletonInspectorWindow"/>
+    </fileobject>
+    <fileobject name="editor">
+        <attr name="WinSys-TCRef-Order" stringvalue="EditorContainer_2/EditorContainer_1/EditorContainer_4/EditorContainer_5/EditorContainer_6"/>
+    </fileobject>
+    <fileobject name="south">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_BOOKMARKS_VIEW_TYPE.BOOKMARK_VIEW_ID"/>
+    </fileobject>
+    <fileobject name="west">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_ExplorerWindow.SingletonExplorerWindow/NBDC_UnifiedThumbnailDockable.UnifiedThumbnailDockable/NBDC_Debugger.StackWindow"/>
+    </fileobject>
+</attributes>

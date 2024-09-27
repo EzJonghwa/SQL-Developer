@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT code
+,title
+,read_count
+,update_dt
+FROM stock_bbs
+ORDER BY 1,4 DESC;]]></sql>
+		<connection><![CDATA[111]]></connection>
+		<timestamp><![CDATA[1727142606392]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.013]]></execTime>
+	</historyItem>
+</history>

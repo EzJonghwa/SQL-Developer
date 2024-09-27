@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT info_no
+,nm
+,email
+,hobby
+FROM tb_info]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1726105392759]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.005]]></execTime>
+	</historyItem>
+</history>

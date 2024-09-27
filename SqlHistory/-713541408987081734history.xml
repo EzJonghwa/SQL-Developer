@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT sex_code
+, count(*) as cnt
+, grouping_id(sex_code) as gid
+FROM customer
+GROUP BY ROLLUP(sex_code);]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726021093401]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.009]]></execTime>
+	</historyItem>
+</history>

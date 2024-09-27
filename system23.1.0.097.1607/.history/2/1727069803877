@@ -1,0 +1,11 @@
+CREATE TABLE stock(
+    code VARCHAR(10) PRIMARY KEY
+    ,name VARCHAR(100)
+    ,market VARCHAR(100)
+    ,marcap number
+    ,stocks number
+    ,use_yn VARCHAR(1) DEFAULT 'N'
+);
+
+INSERT INTO stock(code,name,market,marcap,stocks)
+VALUES(:1,:2,:3,:4,:5);

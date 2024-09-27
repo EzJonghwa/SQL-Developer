@@ -1,0 +1,17 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT A.MEM_ID
+        ,B.CART_PROD
+        ,C.PROD_NAME
+        ,C.PROD_SALE
+FROM MEMBER A, CART B, PROD C
+WHERE A.MEM_ID=B.CART_MEMBER
+AND B.CART_PROD =C.PROD_ID;]]></sql>
+		<connection><![CDATA[111]]></connection>
+		<timestamp><![CDATA[1725507878558]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.004]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT 이름 , 전공 
+    ,RANK() OVER(PARTITION BY 전공 ORDER BY 평점 DESC)
+    ,평점 
+    ,RANK() OVER(PARTITION BY 이름 ORDER BY 평점 DESC)
+FROM 학생;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1725585570888]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.013]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,19 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *
+FROM (
+        SELECT DISTINCT a.customer_id , a.zip_code
+        FROM customer a , reservation b , order_info c
+        WHERE a.customer_id = b.customer_id
+        AND b.reserv_no = c.reserv_no
+        ) T1
+        , ADDRESS T2
+        WHERE T1.ZIP_CODE = T2.ZIP_CODE;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726023107025]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.006]]></execTime>
+	</historyItem>
+</history>

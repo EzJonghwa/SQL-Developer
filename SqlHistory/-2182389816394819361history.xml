@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT TO_CHAR(FIRST_REG_DATE,'DAY')AS 요일, COUNT(TO_CHAR(FIRST_REG_DATE,'DAY'))AS 건수
+FROM CUSTOMER
+GROUP BY TO_CHAR(FIRST_REG_DATE,'DAY')
+ORDER BY 2 DESC]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726020741803]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

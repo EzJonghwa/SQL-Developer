@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/C:/Users/202-2/AppData/Roaming/SQL Developer/naver_stock.sql]]></sql>
+		<connection><![CDATA[111]]></connection>
+		<timestamp><![CDATA[1727079941977]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[20]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

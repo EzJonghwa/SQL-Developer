@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">PERIOD</Item>
+      <Item class="java.lang.String">REGION</Item>
+      <Item class="java.lang.String">GUBUN</Item>
+      <Item class="java.lang.String">LOAN_JAN_AMT</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>77</Item>
+      <Item>65</Item>
+      <Item>125</Item>
+      <Item>114</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23%EC%97%B0%EC%8A%B5SELECT *
+FROM KOR_LOAN_STATUS</uniqueName>
+</TableSettings>

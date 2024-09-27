@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT CUSTOMER_ID, COUNT(CUSTOMER_ID)
+FROM RESERVATION
+WHERE ROWNUM = 1
+GROUP BY CUSTOMER_ID
+ORDER BY 2 ASC;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726024609899]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT A.ITEM_ID, A.PRICE*B.PRI
+FROM ITEM A , (SELECT ITEM_ID ,SUM(QUANTITY) AS PRI
+FROM ORDER_INFO
+GROUP BY ITEM_ID) B
+WHERE A.ITEM_ID = B.ITEM_ID;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1725427661216]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.004]]></execTime>
+	</historyItem>
+</history>

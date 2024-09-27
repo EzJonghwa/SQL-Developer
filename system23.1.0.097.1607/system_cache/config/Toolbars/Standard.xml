@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configuration PUBLIC "-//NetBeans IDE//DTD toolbar 1.1//EN" "http://www.netbeans.org/dtds/toolbar1_1.dtd">
+<Configuration>
+	<Row>
+		<Toolbar name="File" visible="true" draggable="true" align="left"/>
+		<Toolbar name="Clipboard" visible="false" draggable="true" align="left"/>
+		<Toolbar name="UndoRedo" visible="true" draggable="true" align="left"/>
+		<Toolbar name="Build" visible="true" draggable="true" align="left"/>
+		<Toolbar name="Debug" visible="false" draggable="true" align="left"/>
+		<Toolbar name="Memory" visible="true" draggable="true" align="left"/>
+		<Toolbar name="javax.ide.NEW_SECTION_ID" visible="true" draggable="true" align="left"/>
+		<Toolbar name="oracle.ide.TB_UNDO_REDO_SECTION_ID" visible="true" draggable="true" align="left"/>
+		<Toolbar name="oracle.ide.TB_BACK_FORWARD_SECTION_ID" visible="true" draggable="true" align="left"/>
+		<Toolbar name="sqlworksheet.toolbar" visible="true" draggable="true" align="left"/>
+		<Toolbar name="dbsearch.toolbar" visible="true" draggable="true" align="left"/>
+		<Toolbar name="oracle.jdeveloper.TB_RUN_DEBUG_SECTION" visible="true" draggable="true" align="left"/>
+		<Toolbar name="Logical Model" visible="false" draggable="true" align="left"/>
+		<Toolbar name="Relational Model" visible="true" draggable="true" align="left"/>
+		<Toolbar name="Multidimensional Model" visible="false" draggable="true" align="left"/>
+		<Toolbar name="DataTypes Model" visible="false" draggable="true" align="left"/>
+		<Toolbar name="Process Model" visible="false" draggable="true" align="left"/>
+		<Toolbar name="Transformation Model" visible="false" draggable="true" align="left"/>
+		<Toolbar name="QuickSearch" visible="true" draggable="true" align="right"/>
+	</Row>
+</Configuration>

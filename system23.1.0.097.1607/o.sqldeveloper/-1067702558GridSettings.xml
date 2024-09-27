@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">MEM_ID</Item>
+      <Item class="java.lang.String">MEM_PASS</Item>
+      <Item class="java.lang.String">MEM_NAME</Item>
+      <Item class="java.lang.String">MEM_REGNO1</Item>
+      <Item class="java.lang.String">MEM_REGNO2</Item>
+      <Item class="java.lang.String">MEM_BIR</Item>
+      <Item class="java.lang.String">MEM_ZIP</Item>
+      <Item class="java.lang.String">MEM_ADD1</Item>
+      <Item class="java.lang.String">MEM_ADD2</Item>
+      <Item class="java.lang.String">MEM_HOMETEL</Item>
+      <Item class="java.lang.String">MEM_COMTEL</Item>
+      <Item class="java.lang.String">MEM_HP</Item>
+      <Item class="java.lang.String">MEM_MAIL</Item>
+      <Item class="java.lang.String">MEM_JOB</Item>
+      <Item class="java.lang.String">MEM_LIKE</Item>
+      <Item class="java.lang.String">MEM_MEMORIAL</Item>
+      <Item class="java.lang.String">MEM_MEMORIALDAY</Item>
+      <Item class="java.lang.String">MEM_MILEAGE</Item>
+      <Item class="java.lang.String">MEM_DELETE</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>66</Item>
+      <Item>110</Item>
+      <Item>91</Item>
+      <Item>104</Item>
+      <Item>104</Item>
+      <Item>101</Item>
+      <Item>89</Item>
+      <Item>249</Item>
+      <Item>261</Item>
+      <Item>161</Item>
+      <Item>161</Item>
+      <Item>149</Item>
+      <Item>269</Item>
+      <Item>78</Item>
+      <Item>85</Item>
+      <Item>120</Item>
+      <Item>144</Item>
+      <Item>109</Item>
+      <Item>102</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23111SELECT *
+FROM member</uniqueName>
+</TableSettings>

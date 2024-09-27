@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">EMPNO</Item>
+      <Item class="java.lang.String">EMP_NM</Item>
+      <Item class="java.lang.String">TITLE</Item>
+      <Item class="java.lang.String">DNO</Item>
+      <Item class="java.lang.String">DEPTNO</Item>
+      <Item class="java.lang.String">DEPT_NM</Item>
+      <Item class="java.lang.String">DEP_FLOOR</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>64</Item>
+      <Item>72</Item>
+      <Item>53</Item>
+      <Item>45</Item>
+      <Item>76</Item>
+      <Item>77</Item>
+      <Item>89</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23%EC%97%B0%EC%8A%B5SELECT *
+FROM emp, dep
+WHERE emp.dno = dep.deptno  -- 관계를 맺는 방법(조인)
+AND emp.emp_nm ='펭수'</uniqueName>
+</TableSettings>

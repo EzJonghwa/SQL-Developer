@@ -1,0 +1,24 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[WITH A as(
+            SELECT A.MEM_ID
+                    ,C.PROD_NAME
+                    ,C.PROD_SALE
+                    ,B. CART_QTY
+            FROM MEMBER A, CART B, PROD C
+            WHERE A.MEM_ID=B.CART_MEMBER
+            AND B.CART_PROD =C.PROD_ID
+            ORDER BY 1
+    )
+--    ,b as(
+    SELECT SUM(CART_QTY) AS ALL_COUNT
+            FROM A
+            GROUP BY MEM_ID,PROD_NAME;]]></sql>
+		<connection><![CDATA[111]]></connection>
+		<timestamp><![CDATA[1725513083984]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.003]]></execTime>
+	</historyItem>
+</history>

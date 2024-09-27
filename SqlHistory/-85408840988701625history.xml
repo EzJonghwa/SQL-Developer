@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select user_id
+    , user_pw
+    , user_nm
+from tb_user
+WHERE user_id ='TEST'
+AND use_yn ='Y';]]></sql>
+		<connection><![CDATA[111]]></connection>
+		<timestamp><![CDATA[1727057909977]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

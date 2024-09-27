@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<breakpoints xmlns="http://xmlns.oracle.com/jdeveloper/110000/breakpoints">
+   <list n="breakpoint_list">
+      <hash>
+         <value n="caught" v="false"/>
+         <value n="creation_timestamp" v="1"/>
+         <value n="exception" v="java.lang.Exception"/>
+         <value n="java_specific" v="true"/>
+         <value n="persistent" v="true"/>
+         <value n="type" v="2"/>
+      </hash>
+   </list>
+</breakpoints>

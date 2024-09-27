@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">학번</Item>
+      <Item class="java.lang.String">이름</Item>
+      <Item class="java.lang.String">주소</Item>
+      <Item class="java.lang.String">전공</Item>
+      <Item class="java.lang.String">부전공</Item>
+      <Item class="java.lang.String">생년월일</Item>
+      <Item class="java.lang.String">학기</Item>
+      <Item class="java.lang.String">평점</Item>
+      <Item class="java.lang.String">수강내역번호</Item>
+      <Item class="java.lang.String">학번_1</Item>
+      <Item class="java.lang.String">과목번호</Item>
+      <Item class="java.lang.String">강의실</Item>
+      <Item class="java.lang.String">교시</Item>
+      <Item class="java.lang.String">취득학점</Item>
+      <Item class="java.lang.String">년월</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>125</Item>
+      <Item>65</Item>
+      <Item>157</Item>
+      <Item>65</Item>
+      <Item>65</Item>
+      <Item>101</Item>
+      <Item>43</Item>
+      <Item>197</Item>
+      <Item>91</Item>
+      <Item>125</Item>
+      <Item>67</Item>
+      <Item>65</Item>
+      <Item>43</Item>
+      <Item>67</Item>
+      <Item>101</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23%EC%97%B0%EC%8A%B5SELECT * 
+FROM 학생, 수강내역
+WHERE 학생.학번 = 수강내역.학번</uniqueName>
+</TableSettings>

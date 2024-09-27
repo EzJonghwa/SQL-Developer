@@ -1,0 +1,20 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT a.reserv_date
+        ,c.product_desc
+        ,TO_CHAR(TO_DATE(a.reserv_date),'day') as 요일
+        ,b.sales
+FROM reservation a
+    ,order_info b
+    ,item c
+WHERE a.reserv_no = b.reserv_no
+AND b.item_id = c.item_id
+AND c.PRODUCT_DESC ='온라인 전용상품';]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726022609844]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.001]]></execTime>
+	</historyItem>
+</history>

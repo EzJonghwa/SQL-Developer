@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT TO_CHAR(TO_DATE(reserv_date),'MM') as 월
+        ,COUNT(*) as cnt
+FROM RESERVATION
+where cancel ='Y'
+GROUP BY TO_CHAR(TO_DATE(RESERV_DATE),'MM')
+ORDER BY 2 DESC;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726021692269]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

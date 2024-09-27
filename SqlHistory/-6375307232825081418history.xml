@@ -1,0 +1,18 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT
+PRODUCT_NAME 상품이름
+        , A.PRICE*B.PRI 상품매출
+FROM ITEM A , (SELECT ITEM_ID ,SUM(QUANTITY) AS PRI
+FROM ORDER_INFO
+GROUP BY ITEM_ID) B
+WHERE A.ITEM_ID = B.ITEM_ID
+ORDER BY 2 DESC;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726021699278]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.015]]></execTime>
+	</historyItem>
+</history>

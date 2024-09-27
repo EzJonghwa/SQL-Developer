@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *
+FROM SALES
+WHERE SUBSTR(TO_CHAR(SALES_DATE,'YYYYDD'),0,4)>=2000;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1725418362224]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[5]]></executed>
+		<execTime><![CDATA[0.1]]></execTime>
+	</historyItem>
+</history>

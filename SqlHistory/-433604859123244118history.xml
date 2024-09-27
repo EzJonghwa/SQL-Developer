@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT CUSTOMER_ID, COUNT(CUSTOMER_ID)
+FROM RESERVATION
+WHERE CANCEL ='N'
+GROUP BY CUSTOMER_ID
+ORDER BY 2 DESC;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726024820413]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[3]]></executed>
+		<execTime><![CDATA[0.001]]></execTime>
+	</historyItem>
+</history>

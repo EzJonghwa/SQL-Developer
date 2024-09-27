@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT SUBSTR(RESERV_NO,0,6)
+FROM ORDER_INFO
+GROUP BY SUBSTR(RESERV_NO,0,6);]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1725441110147]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[3]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

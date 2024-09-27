@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<debugger-object-preferences xmlns="http://xmlns.oracle.com/jdeveloper/110000/debugger-object-preferences">
+   <hash n="changed-expand-expressions"/>
+   <hash n="changed-expand-expression-suggestions"/>
+   <hash n="changed-hidden-fields"/>
+   <list n="changed-hide-all-fields"/>
+   <hash n="changed-value-expressions"/>
+   <hash n="changed-value-expression-suggestions"/>
+   <hash n="use-tostring">
+      <value n="*" v="true"/>
+      <value n="java.awt.*" v="false"/>
+      <value n="javax.swing.*" v="false"/>
+      <value n="oracle.jbo.server.QueryCollection" v="false"/>
+   </hash>
+   <list n="use-tostring-instead-of-changed-value-expressions"/>
+   <hash n="when-no-expression">
+      <value n="*" v="true"/>
+      <value n="java.awt.*" v="false"/>
+      <value n="javax.swing.*" v="false"/>
+      <value n="oracle.jbo.server.QueryCollection" v="false"/>
+   </hash>
+   <hash n="when-overridden">
+      <value n="*" v="true"/>
+      <value n="java.awt.*" v="true"/>
+      <value n="javax.swing.*" v="true"/>
+      <value n="oracle.jbo.server.QueryCollection" v="true"/>
+   </hash>
+</debugger-object-preferences>

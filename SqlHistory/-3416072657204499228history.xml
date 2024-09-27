@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT a.customer_name , a.phone_number
+FROM customer a, address b
+WHERE a.zip_code = b.zip_code 
+and b.ADDRESS_DETAIL IN ('강남구');]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726019736431]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.003]]></execTime>
+	</historyItem>
+</history>

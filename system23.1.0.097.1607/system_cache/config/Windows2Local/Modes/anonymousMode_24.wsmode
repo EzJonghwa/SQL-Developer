@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="2.4">
+    <name unique="anonymousMode_24"  />
+  <kind type="view" />
+  <state type="joined"  />
+  <constraints>
+    <path orientation="horizontal" number="20" weight="0.14420062695924765"/>
+    <path orientation="vertical" number="55" weight="0.5"/>
+  </constraints>
+  <bounds x="0" y="0" width="0" height="0" />
+  <frame state="0"/>
+    <active-tc  id="NBDC_DBMS_OUTPUT_DOCKABLE_VIEW_TYPE.DBMS_OUTPUT_DOCKABLE_VIEW_ID"  prev-id="NBDC_DBMS_OUTPUT_DOCKABLE_VIEW_TYPE.DBMS_OUTPUT_DOCKABLE_VIEW_ID" />
+    <empty-behavior permanent="false"/>
+</mode>

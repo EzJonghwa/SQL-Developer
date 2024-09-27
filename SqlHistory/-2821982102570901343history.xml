@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT A.이름 , B.학번 , B.학점
+FROM 학생 A,(SELECT B.학번 학번,SUM(A.학점) 학점
+FROM 과목 A , 수강내역 B
+WHERE A.과목번호 = B.과목번호
+GROUP BY B.학번) B
+WHERE A.학번 = B.학번;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1726049354797]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.014]]></execTime>
+	</historyItem>
+</history>

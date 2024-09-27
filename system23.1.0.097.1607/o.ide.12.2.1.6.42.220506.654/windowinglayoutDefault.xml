@@ -1,0 +1,20 @@
+<LayoutInfo>
+   <clientLayoutData>
+      <global>
+         <view-data ReportsDummy="true" ID="ReportNavigatorWindow.DatabaseReports"/>
+         <view-data ClosedByUser="false" ID="LogWindow.Log"/>
+      </global>
+      <Editing layout-name="Editing">
+         <view-data USE_LARGE_ICONS="true" pageSelection="" ID="PALETTEFACTORY.PALETTE"/>
+      </Editing>
+   </clientLayoutData>
+   <knownDockableFactories>
+      <SPATIAL_VIEW_TYPE/>
+      <MigrationProjectNavigatorWindow/>
+      <EXTDockable/>
+   </knownDockableFactories>
+   <knowTriggeredLayouts>
+      <Editing/>
+   </knowTriggeredLayouts>
+   <visibilityLayouts/>
+</LayoutInfo>

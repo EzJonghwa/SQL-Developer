@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">EX1</Item>
+      <Item class="java.lang.String">EX2</Item>
+      <Item class="java.lang.String">EX3</Item>
+      <Item class="java.lang.String">EX4</Item>
+      <Item class="java.lang.String">EX5</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>101</Item>
+      <Item>111</Item>
+      <Item>101</Item>
+      <Item>101</Item>
+      <Item>101</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item class="java.lang.String">5 asc</Item>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23111SELECT TO_DATE('231229','YYMMDD') AS ex1
+,TO_DATE('2024 08 02 09:10:00','YYYY MM DD HH24:MI:SS') AS ex2
+,TO_DATE('24','YY') AS ex3
+,TO_DATE('45','YY') AS ex4
+,TO_DATE('50','RR') AS ex5
+FROM dual</uniqueName>
+</TableSettings>

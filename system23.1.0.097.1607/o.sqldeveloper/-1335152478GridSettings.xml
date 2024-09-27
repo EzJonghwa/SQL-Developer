@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">DATE1</Item>
+      <Item class="java.lang.String">DATE2</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>116</Item>
+      <Item>329</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23%EC%97%B0%EC%8A%B5SELECT * FROM ex1_4</uniqueName>
+</TableSettings>

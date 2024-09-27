@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM 학생;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1726050506786]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[5]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

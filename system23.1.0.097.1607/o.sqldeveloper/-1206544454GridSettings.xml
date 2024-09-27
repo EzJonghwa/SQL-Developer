@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">INFO_NO</Item>
+      <Item class="java.lang.String">PC_NO</Item>
+      <Item class="java.lang.String">NM</Item>
+      <Item class="java.lang.String">EMAIL</Item>
+      <Item class="java.lang.String">HOBBY</Item>
+      <Item class="java.lang.String">TEAM</Item>
+      <Item class="java.lang.String">CREATE_DT</Item>
+      <Item class="java.lang.String">UPDATE_DT</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>71</Item>
+      <Item>60</Item>
+      <Item>85</Item>
+      <Item>281</Item>
+      <Item>133</Item>
+      <Item>77</Item>
+      <Item>101</Item>
+      <Item>101</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23%EC%97%B0%EC%8A%B5SELECT*
+FROM TB_INFO</uniqueName>
+</TableSettings>

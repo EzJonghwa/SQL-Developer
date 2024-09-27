@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT a.customer_id , a.zip_code
+FROM customer a , reservation b , order_info c
+WHERE a.customer_id = b.customer_id
+AND b.reserv_no = c.reserv_no]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726023012788]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.003]]></execTime>
+	</historyItem>
+</history>

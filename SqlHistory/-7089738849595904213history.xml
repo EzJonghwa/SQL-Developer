@@ -1,0 +1,18 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT (SELECT name
+        FROM stock
+        WHERE code = a.code) as nm
+,a.title                     as titlle
+,a.read_count                as read_count
+,TO_CHAR(a.update_dt,'YYYYMMDD HH24:MI:SS') as update_dt
+FROM stock_bbs a
+ORDER BY 1,4 DESC;]]></sql>
+		<connection><![CDATA[111]]></connection>
+		<timestamp><![CDATA[1727142801243]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[11]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

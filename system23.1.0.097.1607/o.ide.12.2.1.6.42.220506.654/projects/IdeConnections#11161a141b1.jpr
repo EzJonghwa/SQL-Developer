@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
+   <hash n="project-level-mru-items">
+      <hash n="oracle.dbtools.raptor.dialogs.file.NewSqlFileNewSqlFile">
+         <value n="class-name" v="oracle.dbtools.raptor.dialogs.file.NewSqlFile"/>
+         <value n="id" v="NewSqlFile"/>
+         <value n="position" v="0"/>
+      </hash>
+   </hash>
+</jpr:project>

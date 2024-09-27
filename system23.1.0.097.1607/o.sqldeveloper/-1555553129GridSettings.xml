@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">전공</Item>
+      <Item class="java.lang.String">학생수</Item>
+      <Item class="java.lang.String">순위</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>65</Item>
+      <Item>67</Item>
+      <Item>55</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23%EC%97%B0%EC%8A%B5SELECT 
+전공,
+        COUNT (학번) 학생수
+        ,RANK() OVER(ORDER BY COUNT (학번) DESC) 순위
+
+FROM 학생
+GROUP BY 전공
+ORDER BY 3</uniqueName>
+</TableSettings>

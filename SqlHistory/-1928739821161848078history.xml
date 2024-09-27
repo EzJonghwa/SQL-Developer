@@ -1,0 +1,32 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[WITH A as (
+            SELECT A.CUST_ID  
+                , A.SALES_MONTH   
+                , A.AMOUNT_SOLD   
+                , B.COUNTRY_ID
+            FROM SALES A
+                ,CUSTOMERS B
+                ,COUNTRIES C
+            WHERE A.CUST_ID = B.CUST_ID
+            AND B.COUNTRY_ID = C.COUNTRY_ID
+            AND A.SALES_MONTH BETWEEN '200001' AND '200012'
+            AND C.COUNTRY_NAME = 'Italy'
+    )
+     ,B as(
+            SELECT AVG(AMOUNT_SOLD) AS y_avg -- 연평균
+            FROM A
+        )
+--    ,C as(
+            SELECT SALES_MONTH
+            ,AVG(AMOUNT_SOLD) AS m_avg --월평균
+            FROM A
+            GROUP BY SALES_MONTH;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1725506628808]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.034]]></execTime>
+	</historyItem>
+</history>

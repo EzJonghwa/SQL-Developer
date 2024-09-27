@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *FROM stock_price]]></sql>
+		<connection><![CDATA[111]]></connection>
+		<timestamp><![CDATA[1727075861727]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.014]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT A.CUSTOMER_ID, B.CUSTOMER_NAME ,A.BRANCH 
+        ,COUNT(A.BRANCH)
+FROM RESERVATION A, CUSTOMER B
+WHERE A.CUSTOMER_ID = B.CUSTOMER_ID
+GROUP BY A.CUSTOMER_ID, B.CUSTOMER_NAME ,A.BRANCH]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726025444961]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.004]]></execTime>
+	</historyItem>
+</history>

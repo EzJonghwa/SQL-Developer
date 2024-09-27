@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT B.PRODUCT_NAME
+,SUM(A.SALES) AS 상품매출
+FROM ORDER_INFO A, ITEM B
+WHERE A.ITEM_ID = B.ITEM_ID
+GROUP BY B.ITEM_ID, B.PRODUCT_NAME
+ORDER BY 2 DESC;]]></sql>
+		<connection><![CDATA[Study]]></connection>
+		<timestamp><![CDATA[1726021854730]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.003]]></execTime>
+	</historyItem>
+</history>

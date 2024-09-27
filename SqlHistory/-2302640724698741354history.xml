@@ -1,0 +1,21 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT department_id ,emp_name,hire_date,salary
+,SUM (salary) OVER (PARTITION BY department_id ORDER BY hire_date
+                        ROWS BETWEEN UNBOUNDED PRECEDING 
+                        AND CURRENT ROW ) AS FOLLOWING_CURRENT
+,SUM (salary) OVER (PARTITION BY department_id ORDER BY hire_date
+                        ROWS BETWEEN CURRENT ROW 
+                        AND UNBOUNDED FOLLOWING) AS CURR_FOLLOWING
+,SUM (salary) OVER (PARTITION BY department_id ORDER BY hire_date
+                        ROWS BETWEEN 1 PRECEDING 
+                        AND CURRENT ROW) AS JUN1_CURRENT
+FROM employees;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1725589666750]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *
+FROM CUSTOMERS
+WHERE CUST_STATE_PROVINCE_ID = 52770;]]></sql>
+		<connection><![CDATA[연습]]></connection>
+		<timestamp><![CDATA[1725417042559]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[4]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>
